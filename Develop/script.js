@@ -11,7 +11,7 @@ function generatePassword() {
     while (passwordLength < 8 || passwordLength > 128 || isNaN(passwordLength)) {
       passwordLength = parseInt(prompt
         ("Please enter a number between 8 and 128?"));
-    }
+      }
 
 //Confirm Password Requirements
     var lowercaseRequired = confirm("Are lowercase letters required?");
